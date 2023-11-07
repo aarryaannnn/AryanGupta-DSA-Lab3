@@ -1,0 +1,40 @@
+package com.aryan.balancingBracket.isBracketIsBalanced;
+
+import java.util.Stack;
+
+public class BalancingBracketFun {
+	public boolean isBracketIsBalanced(String input) {
+		Stack<Character> stack = new Stack<>();
+		for (int i = 0; i < input.length(); i++) {
+			char character = input.charAt(i);
+			if (character == '(' || character == '{' || character == '[') {
+				stack.push(character);
+				continue;
+			}
+			if (stack.isEmpty())
+				return false;
+			char c;
+			switch (character) {
+			case ')':
+				c = stack.pop();
+				if (c == '{' || c == '[')
+					return false;
+				break;
+			case ']':
+				c = stack.pop();
+				if (c == '{' || c == '(')
+					return false;
+				break;
+			case '}':
+				c = stack.pop();
+				if (c == '(' || c == '[')
+					return false;
+				break;
+
+			default:
+				break;
+			}
+		}
+		return stack.isEmpty();
+	}
+}

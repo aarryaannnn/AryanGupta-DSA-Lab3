@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.aryan.balancingBracket.isBracketIsBalanced&apos; to &apos;com.aryan.balancingBracket.fun&apos;&#x0A;- Original project: &apos;Balancin Bracket&apos;&#x0A;- Original element: &apos;Balancin Bracket/src/com.aryan.balancingBracket.isBracketIsBalanced&apos;&#x0A;- Renamed element: &apos;Balancin Bracket/src/com.aryan.balancingBracket.fun&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.aryan.balancingBracket.isBracketIsBalanced&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.aryan.balancingBracket.isBracketIsBalanced" name="com.aryan.balancingBracket.fun" qualified="false" references="true" stamp="1699375449703" textual="false" version="1.0"/>
+</session>
